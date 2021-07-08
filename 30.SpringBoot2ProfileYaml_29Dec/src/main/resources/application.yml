@@ -1,0 +1,15 @@
+my:
+ app:
+  title: NIT-DEF
+---
+my:
+ app:
+  title: NIT-QA
+spring:
+ profiles: qa
+---
+my:
+ app:
+  title: NIT-PROD
+spring:
+ profiles: prod

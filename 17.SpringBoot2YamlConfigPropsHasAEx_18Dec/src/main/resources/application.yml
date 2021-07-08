@@ -1,0 +1,6 @@
+my:
+  app:
+    student:
+      sid : 10
+      sname : Jitendra
+      sfee : 789.89

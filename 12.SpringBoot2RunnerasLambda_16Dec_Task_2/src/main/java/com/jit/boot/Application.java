@@ -1,0 +1,16 @@
+package com.jit.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
+
+@SpringBootApplication
+@PropertySource({"classpath:samples.properties","classpath:admin.properties"})
+public class Application {
+
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+}

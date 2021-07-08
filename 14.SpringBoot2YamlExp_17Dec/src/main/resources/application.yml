@@ -1,0 +1,5 @@
+my:
+  app:
+     id : 9999
+     name : YAML DATA
+     cost : 600.07
